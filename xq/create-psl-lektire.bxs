@@ -1,0 +1,3 @@
+SET INTPARSE true; SET CHOP false; SET FTINDEX true; SET UPDINDEX true; SET AUTOOPTIMIZE true
+CREATE DB psl-lektire
+RUN /home/neven/rad/ogl/nevencanonicallat/lektire/xq/add-psl-files-to-db.xq
