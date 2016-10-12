@@ -3,4 +3,4 @@ for $s in db:open("psl-lektire","phi0134.phi006.perseus-lat1.xml")/*:TEI.2//*:di
 let $text := data($s/*:l)
 return $text
 }
-return tokenize(data($drama), '[.?!]')
+return tokenize(normalize-space(data($drama)), '[.?!] *')
