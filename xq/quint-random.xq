@@ -3,5 +3,5 @@ for $s in db:open("latstil-lektire","phi1002.phi001.perseus-lat2.xml")/*:TEI//*:
 return $s
 }
 let $random := random:integer(259) + 1
-let $p := ($drama//*:p[$random - 2] , $drama//*:p[$random - 1] , $drama//*:p[$random])
-return normalize-space(string-join($p))
+let $p := ($drama//*:p[$random - 3] , $drama//*:p[$random - 2] , $drama//*:p[$random - 1] , $drama//*:p[$random], $drama//*:p[$random + 1], $drama//*:p[$random + 2])
+return normalize-space(string-join($p//text()[not(ancestor::*:note)]))
