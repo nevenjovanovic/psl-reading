@@ -14,7 +14,7 @@ declare function functx:substring-after-last
 let $lektira := ("urn:cts:latinLit:phi1017.phi015", "urn:cts:latinLit:phi0893.phi001", "urn:cts:latinLit:phi0134.phi006", "urn:cts:latinLit:phi0660.phi001")
 for $l in $lektira
 let $dir1 := functx:substring-after-last($l, ':')
-let $dir2 := "/home/neven/rad/ogl/nevencanonicallat/canonical-latinLit/data/" || replace($dir1, '\.', '/') || "/"
+let $dir2 := "/home/neven/Repos/canonical-latinLit/data/" || replace($dir1, '\.', '/') || "/"
 let $pattern := "*-lat*.xml"
 let $fileadr := $dir2 || file:list($dir2, xs:boolean(0), $pattern)
 return db:add("psl-lektire", $fileadr)

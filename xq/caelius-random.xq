@@ -4,5 +4,5 @@ let $text := $s//text()[not(ancestor::*:note)]
 return element p { $text }
 }
 let $random := random:integer(97) + 1
-let $p := ($drama//*:p[$random - 1] , $drama//*:p[$random])
+let $p := ($drama//*:p[$random - 1] , $drama//*:p[$random], $drama//*:p[$random + 1])
 return normalize-space(string-join($p))
