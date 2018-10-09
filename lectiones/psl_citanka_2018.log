@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.4.20)  10 SEP 2018 18:34
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.4.20)  9 OCT 2018 09:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,10 +6,10 @@ entering extended mode
 (./psl_citanka_2018.tex
 LaTeX2e <2017/01/01> patch level 3
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
-(/home/neven/texlive2/2016/texmf-dist/tex/latex/base/book.cls
-Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
-(/home/neven/texlive2/2016/texmf-dist/tex/latex/base/bk12.clo
-File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/home/neven/texlive2/2016/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(/home/neven/texlive2/2016/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -696,11 +696,8 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 )
 [1
 
-
 ] [2
 
-
-] [1
 
 ]
 
@@ -709,14 +706,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] [1
+[3] [4
 
-
-] [2]
+]
 Caput 1.
-(./capita/c01-sen-ep01.tex [3
+(./capita/c01-sen-ep01.tex [5
 
-] [4]
+] [6]
 Underfull \hbox (badness 10000) in paragraph at lines 52--54
 
  []
@@ -739,7 +735,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
 Underfull \vbox (badness 1558) has occurred while \output is active []
 
- [5]
+ [7]
 Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
@@ -774,7 +770,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--101
 
  []
 
-[6]
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
@@ -794,7 +790,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
 
-[7]
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
  []
@@ -824,7 +820,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 167--169
 
  []
 
-[8]
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 171--174
 
  []
@@ -834,39 +830,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 175--176
 
  []
 
-) [9] [10
-
-]
+) [11]
 Caput 2.
-(./capita/c02-sen-ep02.tex [11] [12]) [13] [14
+(./capita/c02-sen-ep02.tex [12
 
-]
+] [13]) [14]
 Caput 3.
-(./capita/c03-sen-ep03.tex [15] [16]) [17] [18
+(./capita/c03-sen-ep03.tex [15
 
-]
+] [16]) [17]
 Caput 4.
-(./capita/c04-sen-ep04.tex [19] [20]
+(./capita/c04-sen-ep04.tex [18
+
+] [19]
 Overfull \hbox (3.76312pt too wide) in paragraph at lines 39--40
 []\TU/OldStandardTT(0)/m/n/14.4 De Pompei capite pupillus et spado tulere sente
 ntiam, de Cras-
  []
 
-[21]) [22]
+[20]) [21]
 Caput 5.
-(./capita/c05-sen-ep05.tex [23
+(./capita/c05-sen-ep05.tex [22
 
-] [24]) [25] [26
+] [23]) [24] [25
 
-] [27] [28]
+]
 Caput 6.
-(./capita/c06-tib-el01.tex [29
+(./capita/c06-tib-el01.tex [26
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30]
-[31]
+ [27]
+[28]
 Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
@@ -911,7 +907,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 141--142
 
  []
 
-[32]
+[29]
 Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
@@ -956,7 +952,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 173--174
 
  []
 
-[33]
+[30]
 Underfull \hbox (badness 10000) in paragraph at lines 178--179
 
  []
@@ -1006,7 +1002,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 210--211
 
  []
 
-[34]
+[31]
 Underfull \hbox (badness 10000) in paragraph at lines 215--216
 
  []
@@ -1062,7 +1058,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 248--249
 
  []
 
-[35]
+[32]
 Underfull \hbox (badness 10000) in paragraph at lines 253--254
 
  []
@@ -1117,18 +1113,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 289--290
 
  []
 
-[36]) [37] [38
+[33]) [34]
+Caput 7.
+(./capita/c07-tib-el02.tex [35
 
 ]
-Caput 7.
-(./capita/c07-tib-el02.tex [39]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40]
+ [36]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41]
-[42]
+ [37]
+[38]
 Underfull \hbox (badness 10000) in paragraph at lines 131--132
 
  []
@@ -1186,7 +1182,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 178--179
 
 Underfull \vbox (badness 1910) has occurred while \output is active []
 
- [43]
+ [39]
 Underfull \hbox (badness 10000) in paragraph at lines 183--184
 
  []
@@ -1221,7 +1217,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 212--213
 
  []
 
-[44]
+[40]
 Underfull \hbox (badness 10000) in paragraph at lines 218--219
 
  []
@@ -1271,7 +1267,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 261--262
 
  []
 
-[45]
+[41]
 Underfull \hbox (badness 10000) in paragraph at lines 267--268
 
  []
@@ -1321,7 +1317,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 308--309
 
  []
 
-[46]
+[42]
 Underfull \hbox (badness 10000) in paragraph at lines 314--315
 
  []
@@ -1371,7 +1367,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 355--356
 
  []
 
-[47]
+[43]
 Underfull \hbox (badness 10000) in paragraph at lines 359--360
 
  []
@@ -1429,7 +1425,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 404--405
 
 Underfull \vbox (badness 2970) has occurred while \output is active []
 
- [48]
+ [44]
 Underfull \hbox (badness 10000) in paragraph at lines 409--410
 
  []
@@ -1464,21 +1460,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 435--436
 
  []
 
-) [49] [50
-
-]
+) [45]
 Caput 8.
 (./capita/c08-tib-el03.tex
 Underfull \vbox (badness 2103) has occurred while \output is active []
 
- [51]
+ [46
+
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [52]
+ [47]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [53]
-[54]
+ [48]
+[49]
 Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
@@ -1524,7 +1520,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 155--156
 
  []
 
-[55]
+[50]
 Underfull \hbox (badness 10000) in paragraph at lines 161--162
 
  []
@@ -1564,7 +1560,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 197--198
 
  []
 
-[56]
+[51]
 Underfull \hbox (badness 10000) in paragraph at lines 203--204
 
  []
@@ -1614,7 +1610,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 245--246
 
  []
 
-[57]
+[52]
 Underfull \hbox (badness 10000) in paragraph at lines 251--252
 
  []
@@ -1669,7 +1665,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 296--297
 
  []
 
-[58]
+[53]
 Underfull \hbox (badness 10000) in paragraph at lines 301--302
 
  []
@@ -1704,7 +1700,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 332--333
 
  []
 
-[59]
+[54]
 Underfull \hbox (badness 10000) in paragraph at lines 338--339
 
  []
@@ -1744,44 +1740,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 373--374
 
  []
 
-) [60] [61
+) [55] [56
 
-] [62]
+]
 Caput 9.
 (./capita/c09-ter-adelph00.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-[63
+[57
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
-[64]
+[58]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [65]
-[66] [67])
+ [59]
+[60] [61])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [68]
-[69] [70
+ [62]
+[63]
+Caput 10.
+(./capita/c10-ter-adelph01.tex [64
 
 ]
-Caput 10.
-(./capita/c10-ter-adelph01.tex [71]
 
 LaTeX Font Warning: Font shape `TU/OldStandardTT(0)/m/sc' undefined
 (Font)              using `TU/OldStandardTT(0)/m/n' instead on input line 73.
 
-[72]) [73] [74
+[65]) [66]
+Caput 11.
+(./capita/c11-ter-adelph02.tex [67
 
 ]
-Caput 11.
-(./capita/c11-ter-adelph02.tex [75]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 51.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -1791,44 +1787,42 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [76]
-[77] [78]) [79] [80
-
-]
+ [68]
+[69] [70]) [71]
 Caput 12.
-(./capita/c12-ter-adelph03.tex [81]
+(./capita/c12-ter-adelph03.tex [72
+
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [82]
-[83] [84]) [85] [86
+ [73]
+[74] [75]) [76] [77
 
-] [87] [88]
+]
 Caput 13.
-(./capita/c13-hor-od1-1.tex [89
+(./capita/c13-hor-od1-1.tex [78
 
-] [90]) [91] [92
+] [79]) [80]
+Caput 14.
+(./capita/c14-hor-od1-2.tex [81
 
 ]
-Caput 14.
-(./capita/c14-hor-od1-2.tex [93]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [94])
-[95] [96
-
-]
+ [82])
+[83]
 Caput 15.
-(./capita/c15-hor-od1-3.tex [97] [98]) [99] [100
+(./capita/c15-hor-od1-3.tex [84
 
-] (./psl_citanka_2018.toc
-[101
+] [85]) [86] (./psl_citanka_2018.toc [87
 
 ])
 \tf@toc=\write4
 \openout4 = `psl_citanka_2018.toc'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 219.
- [102]
+
+[88]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 219.
  (./psl_citanka_2018.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 219.
@@ -1840,12 +1834,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 219.
  ) 
 Here is how much of TeX's memory you used:
- 18160 strings out of 493068
- 340769 string characters out of 6134808
- 436951 words of memory out of 5000000
- 21808 multiletter control sequences out of 15000+600000
+ 18157 strings out of 493068
+ 340746 string characters out of 6134808
+ 436933 words of memory out of 5000000
+ 21805 multiletter control sequences out of 15000+600000
  7923 words of font info for 49 fonts, out of 8000000 for 9000
  1472 hyphenation exceptions out of 8191
  35i,11n,66p,10374b,490s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on psl_citanka_2018.pdf (106 pages).
+Output written on psl_citanka_2018.pdf (88 pages).

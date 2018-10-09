@@ -1,20 +1,20 @@
 \select@language {latin}
-\contentsline {part}{I\hspace {1em}L.\ Annaei Senecae ad Lucilium epistulae morales}{1}{part.1}
-\contentsline {chapter}{\numberline {1}Epistula I.}{3}{chapter.1}
-\contentsline {chapter}{\numberline {2}Epistula II.}{11}{chapter.2}
+\contentsline {part}{I\hspace {1em}L.\ Annaei Senecae ad Lucilium epistulae morales}{4}{part.1}
+\contentsline {chapter}{\numberline {1}Epistula I.}{5}{chapter.1}
+\contentsline {chapter}{\numberline {2}Epistula II.}{12}{chapter.2}
 \contentsline {chapter}{\numberline {3}Epistula III.}{15}{chapter.3}
-\contentsline {chapter}{\numberline {4}Epistula IV.}{19}{chapter.4}
-\contentsline {chapter}{\numberline {5}Epistula V.}{23}{chapter.5}
-\contentsline {part}{II\hspace {1em}Albii Tibulli elegiarum liber primus}{27}{part.2}
-\contentsline {chapter}{\numberline {6}Elegia I.}{29}{chapter.6}
-\contentsline {chapter}{\numberline {7}Elegia II.}{39}{chapter.7}
-\contentsline {chapter}{\numberline {8}Elegia III.}{51}{chapter.8}
-\contentsline {part}{III\hspace {1em}Terentii Adelphoe}{61}{part.3}
-\contentsline {chapter}{\numberline {9}Adelphoe, didascalia et prologus.}{63}{chapter.9}
-\contentsline {chapter}{\numberline {10}Adelphoe, actus I, scaena I.}{71}{chapter.10}
-\contentsline {chapter}{\numberline {11}Adelphoe, actus I, scaena II.}{75}{chapter.11}
-\contentsline {chapter}{\numberline {12}Adelphoe, actus II, scaena I.}{81}{chapter.12}
-\contentsline {part}{IV\hspace {1em}Horatii odarum liber primus}{87}{part.4}
-\contentsline {chapter}{\numberline {13}Ode I.}{89}{chapter.13}
-\contentsline {chapter}{\numberline {14}Ode II.}{93}{chapter.14}
-\contentsline {chapter}{\numberline {15}Ode III.}{97}{chapter.15}
+\contentsline {chapter}{\numberline {4}Epistula IV.}{18}{chapter.4}
+\contentsline {chapter}{\numberline {5}Epistula V.}{22}{chapter.5}
+\contentsline {part}{II\hspace {1em}Albii Tibulli elegiarum liber primus}{25}{part.2}
+\contentsline {chapter}{\numberline {6}Elegia I.}{26}{chapter.6}
+\contentsline {chapter}{\numberline {7}Elegia II.}{35}{chapter.7}
+\contentsline {chapter}{\numberline {8}Elegia III.}{46}{chapter.8}
+\contentsline {part}{III\hspace {1em}Terentii Adelphoe}{56}{part.3}
+\contentsline {chapter}{\numberline {9}Adelphoe, didascalia et prologus.}{57}{chapter.9}
+\contentsline {chapter}{\numberline {10}Adelphoe, actus I, scaena I.}{64}{chapter.10}
+\contentsline {chapter}{\numberline {11}Adelphoe, actus I, scaena II.}{67}{chapter.11}
+\contentsline {chapter}{\numberline {12}Adelphoe, actus II, scaena I.}{72}{chapter.12}
+\contentsline {part}{IV\hspace {1em}Horatii odarum liber primus}{77}{part.4}
+\contentsline {chapter}{\numberline {13}Ode I.}{78}{chapter.13}
+\contentsline {chapter}{\numberline {14}Ode II.}{81}{chapter.14}
+\contentsline {chapter}{\numberline {15}Ode III.}{84}{chapter.15}
