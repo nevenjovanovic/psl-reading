@@ -30,39 +30,39 @@
 ## Ivan Slamnig, Ranjeni tenk
 (Korejski motiv)
 
-Za viteštvo dočekah strašnu kob
-jer smetlište je željezu grob.
-Ja koji bijah pakao i grom,
-ja koji bijah panter i tigar,
-sad čekam da koji stari Rom
-o mene zgasne svoj ljuti cigar.
-Ja što bijah strah mitraljeza
-ja što bijah Šerman i Paton
-sad čekam da me Jula i Reza
+Za viteštvo dočekah strašnu kob\
+jer smetlište je željezu grob.\
+Ja koji bijah pakao i grom,\
+ja koji bijah panter i tigar,\
+sad čekam da koji stari Rom\
+o mene zgasne svoj ljuti cigar.\
+Ja što bijah strah mitraljeza\
+ja što bijah Šerman i Paton\
+sad čekam da me Jula i Reza\
 okite svojom starom salatom.
 
-        Ja što se nadah bakrenom kipu
-        biti ću prodan kilo za lipu.
+Ja što se nadah bakrenom kipu\
+biti ću prodan kilo za lipu.
 
 ## Ivan Goran Kovačić, Moj grob
 
 
-U planini mrkoj nek mi bude hum,
+U planini mrkoj nek mi bude hum,\
 Nad njim urlik vuka, crnih grana šum,
 
-Ljeti vječan vihor, zimi visok snijeg,
+Ljeti vječan vihor, zimi visok snijeg,\
 Muku moje rake nedostupan bijeg.
 
-Visoko nek stoji, ko oblak i tron,
+Visoko nek stoji, ko oblak i tron,\
 Da ne dopre do njeg niskog tornja zvon,
 
-Da ne dopre do njeg pokajnički glas,
+Da ne dopre do njeg pokajnički glas,\
 Strah obraćenika, molitve za spas.
 
-Neka šikne travom, uz trnovit grm,
+Neka šikne travom, uz trnovit grm,\
 Besput da je do njeg, neprobojan, strm.
 
-Nitko da ne dođe, do prijatelj drag, –
+Nitko da ne dođe, do prijatelj drag, –\
 I kada se vrati, nek poravna trag.
 
 Objavljeno: 1937.
