@@ -1,0 +1,148 @@
+\documentclass[a4paper,12pt,twoside]{report}
+\usepackage[croatian]{babel}
+
+\usepackage{fontspec}
+\usepackage{verse}
+\defaultfontfeatures{Ligatures=TeX}
+
+\usepackage{import}
+\usepackage[small,sf,bf]{titlesec}
+\usepackage{tabto}
+\usepackage{ulem}
+\usepackage{hyperref}
+\usepackage{enumitem}
+
+\usepackage{fancyhdr}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE]{\itshape\nouppercase{Prevođenje s latinskog – primjeri hrvatske proze}}
+\fancyhead[LO]{\itshape\nouppercase{\leftmark}}
+\renewcommand{\headrulewidth}{0pt}
+
+\usepackage{titling}
+\newcommand{\subtitle}[1]{%
+  \posttitle{%
+    \par\end{center}
+    \begin{center}\large#1\end{center}
+    \vskip0.5em}%
+}
+ 
+\setmainfont{Old Standard TT}
+\setsansfont{Old Standard TT}
+%\setsansfont{Tahoma}
+
+\hyphenation{δυσ-σέ-βει-αν βού-λεσ-θαί κα-τη-γο-ρού-σης τα-χέ-ως πε-πλημ-μέ-λη-κε νε-α-νί-ας αὐ-τῇ ἀ-φε-λό-με-νος ἀ-πή-γε-το ἐ-πέ-πληξ-άς ἠ-γό-μην ἤ-νεγ-κεν νο-μί-ζει ἄν-θρω-πον παν-το-δα-πά Αἰ-θί-οψ-ιν ἀν-έρ-χε-ται φρον-τί-δων αὐ-τὸς δι-ῃ-ρη-μέ-νος κλέπ-τον-τας ἑ-κα-τόμ-βῃ μέ-γισ-τον κιν-δύ-νου}
+
+\hyphenation{Ελ-λή-νων ξυν-έ-μει-νεν ἐ-πι-όντ-ων ἀνα-σκευ-α-σά-με-νοι ἀ-πω-σά-με-νοι Λα-κε-δαι-μό-νι-οι Ελ-λη-νες δι-ε-φά-νη}
+
+\hyphenation{εὐ-δο-κι-μή-σας ἐν-ταῦ-θα βα-σι-λεύ-εις ἐ-χρή-σα-το συλ-ληφ-θέν-τος}
+
+\hyphenation{θε-ρά-πον-τες ἡ-γοῦ-μαι}
+
+\hyphenation{ἐπι-φα-νέσ-τε-ρον το-σοῦ-τον ἔ-χον-τας συγ-γιγ-νο-μέ-νους μᾶλ-λον με-γίσ-την}
+
+\hyphenation{ἐπ-έσ-κηπ-τε}
+
+\hyphenation{κοι-νω-νοῦ-σιν δη-λῶ-σαι δι-α-λε-γο-μέ-νους πλη-σι-ά-ζον-τας πα-ρα-λι-πεῖν}
+
+\hyphenation{καρ-πῶν ὀ-νο-μα-ζό-με-νον τηκ-τὰ ὅ-σα}
+
+\hyphenation{με-μά-θη-κας Μά-λισ-τα πο-λυ-μα-θής}
+
+\hyphenation{δι-α-βε-βλη-μέ-νος Α-ρι-στό-βου-λος Σω-κρά-τους Δı-α-τ
+ρι-βαί ἐξ-ελ-κύ-σαι Ἐγ-χει-ρί-δι-ον}
+
+\hyphenation{δά-μα-λιν δύ-να-μαι}
+
+\hyphenation{πυ-θο-μέ-νου ἀ-πο-κρί-νε-ται τρα-πέ-ζαις ἀ-πέσ-τει-λαν γρά-ψαν-τος με-τα-τί-θη-σι με-γά-λου Τισ-σα-φέρ-νῃ προσ-ε-πι-μετ-ρῆ-σαι Α-θη-ναί-οις Τισ-σα-φέρ-νην Αλ-κι-βι-ά-δην πα-τρί-δα}
+
+\hyphenation{ἡ-γοῦν-ται ἀ-πο-ρω-τά-των πό-λεις Ras-pra-va Ἀ-πο-λο-γί-α Λα-κε-δαı-μο-νί-ων Κυ-νη-γε-τι-κός}
+
+\hyphenation{πλε-όν-των γε-ωρ-γὸς ἕ-τε-ρον}
+
+\hyphenation{κα-θεῖ-ναι προ-ελ-θοῦ-σαν ἀ-πο-δοῦ-ναι ἀ-πο-φαί-νον-τος ἀ-πεσ-τά-λη ἅ-παν-τας τρί-πο-δα τρί-πο-δος κα-θι-ερώ-θη}
+
+\hyphenation{χρεί-αν παν-τὸς ἀν-επί-σκεπ-τον ἀ-πο-θα-νόν-των πα-ρα-σκευ-ά-ζον-τας φρον-τί-ζον-τας πολ-λοὺς κτω-μέ-νους ἐ-λατ-τοῦσ-θαι ἀ-με-λοῦν-τας ἀ-θε-ρά-πευ-τον κτη-μά-των πει-ρω-μέ-νους ὀ-λι-γω-ροῦν-τας δε-ο-μέ-νων ἐ-ῶν-τας ἔ-μοι-γε}
+
+\hyphenation{αὐ-το-κρά-το-ρας Λά-μα-χον ποι-ή-σαν-τες ἑξή-κον-τα Σε-λι-νουν-τί-ους χρη-μά-των μισ-θόν Νι-κη-ρά-του πε-ρι-γίγ-νη-ται}
+
+
+
+\begin{document}
+
+\title{Prevođenje s latinskog}
+\subtitle{Primjeri hrvatske proze}
+\author{Odsjek za klasičnu filologiju\\
+Filozofski fakultet Sveučilišta u Zagrebu}
+\maketitle
+
+\clearpage
+\thispagestyle{empty}
+
+
+%\frontmatter
+
+
+\chapter[Josip Horvat, Zapisci iz nepovrata]{Josip Horvat, Zapisci iz nepovrata. Hrvatski mikrokozam između dva rata 1919-1941. (Zagreb 1947.)}
+
+Pristanak uz riječku rezoluciju za razvitak »Obzora« ne bijaše toliko važan politički, koliko kulturno-politički. Pristankom uz rezolucionaše Dežman je ispregao »Obzor« iz sprege tradicije strossmayerovskoga liberalnog klerikalizma, koji je, uostalom, posljednjih godina prilično izblijedio u svom liberalizmu. »Obzor« je s Dežmanovim vodstvom postao kulturno naprednjački list. To »Obzorovo« naprednjaštvo nije bilo agresivno kao kod pokretaša, koji su konačno i naprednjaštvo učinili često netolerantnim. Pod Dežmanovim redaktorstvom obnovilo se naprednjaštvo i liberalizam prvog godišta »Pozora«, ostavši u načelu baza naziranja, redigiranja i intimnog života »Obzorovog« do njegovog skončanja. Dežman, razvikan kao despot, diktator i grubijan, bio je u suštini tolerantan čovjek, tolerantniji bar od čete zagrebačkih »slobodnih mislilaca« i demokrata. Bio je tvrd, možda tvrdoglav, samo kad je bio uvjeren da ima pravo, a često je, intelektualno superioran svojoj okolini, zaista imao pravo. Pod konac života ta je njegova tolerantnost poprimila nijansu fatalističke rezigniranosti, koju bi na mahove presjekla ćudljiva tvrdokornost, sad već jamačno posljedica procesa starenja. Tad je bivao i svojoj dnevnoj okolini nezgodan. No samo u sitnicama. U časovima kriza konačno bi opet prevladala razboritost i osebujna humanost, izražena drastičnim njegovim refrenom »pe-ve«.
+
+Pod Dežmanovim je vodstvom od 1906.\ do 1914.\ »Obzor« dosegao zenit razvoja kao novina i svojim utjecajem na javni život, svojim niveauom i svojom tehničkom dotjeranošću. Bude li jednom neki historičar prosuđivao politički i kulturni stepen tadašnjega hrvatskog života po niveauu tadašnjega »Obzora«, dat će mu vjerojatno povoljnu ocjenu. Ocjena neće biti niti netočna. Samo morat će uzeti u obzir da su jedne novine prilično pouzdano mjerilo niveaua ne čitave javnosti, narodnog kolektiva, već sloja kojemu su bile namijenjene. Hrvatska inteligencija, kojoj je »Obzor« bio tad glasnik, tih je godina učvrstila duhovni kontakt sa zapadnom Evropom, počela učiti misliti u evropskim formama, istodobno ne kidajući veze s problematikom rođene zemlje i slavenskoga svijeta. Da se to postiglo i do 1914.\ možda i produblo, nije mala zasluga upravo »Obzora« tih godišta. »Obzor« je otvarao hrvatskom svijetu evropske horizonte. Vidici su bili katkad skromni i kratki, ali su postojali. U općem razvitku bijaše to progres u poredbi sa stanjem od par decenija unatrag.
+
+Dežman je imao jak novinarski talenat. Novinarske škole nikad neće stvarati novinare, možda donekle novinarskog suradnika. Novinarstvo je zacijelo u prvom redu stvar temperamenta, koji nesavladivo nosi žudnju za spoznajom stvarne istine. Ljudi tu žudnju vulgarno nazivaju radoznalošću. Međutim, ta je žudnja istovjetna s težnjom historičara da spozna istinu prošlosti. Nema disciplina koje bi bile tako srodne kao žurnalizam i historiografija. Žurnalist je konačno historičar jednoga dana. Dapače i metode rada i sredstva srodna su, upravo istovjetna, kod historičara i kod žurnalista. Historijski je studij najbolja škola za žurnalistu, uči ga gledati, povezivati pojave, te ih prosuđivati. Žurnalist je samo u težem položaju od historičara, jer ovaj ocjenjuje svršene događaje, a žurnalist uočuje i nastoji ocijeniti događaje u nastajanju i razvoju.
+
+Novinarska žudnja za ustanovljivanjem istine u pojavama ljudi i stvari ima idealnu crtu, jer je novinaru cilj podijeliti je sa svima. Otkriće činjenične istine čistokrvni novinar ne iskorišćuje za se. Uostalom rijetki su pravi žurnalisti i u velikom svijetu, koji su svojom žurnalističkom djelatnošću stekli zemaljska blaga. Možda će se kome učiniti da su ovi reci idealiziranje žurnalizma, možda čak pisani, ukoliko ne izrazito »pro domo«, kao nesvjesna apologija staleža kojemu sam pripadao. Upravo zato jer sam upoznao i tamne strane svoje bivše profesije i njezinih ljudi, vjerujem da mogu dati približno točnu definiciju i analizu novinarstva i novinara.
+
+Dakako, intelektualna radoznalost sama nije dovoljna za novinarstvo. Potreban je dar brzog opažanja i shvaćanja, kombinatorike i iskustvo postavljanja dijagnoza i stvaranja zaključaka. Za sve to potrebno je — kao i kod modernog historičara: enciklopedističko znanje koje kod novinara po naravi stvari ide više u širinu no u dubinu. Novinar, jer je historiograf života u najneposrednijem smislu, mora imati znanja o svim njegovim komponentama. I znanja okoristiti se brzo tuđim znanjem. Moderni žurnalizam kao i moderna historiografija upućeni su na kooperativni rad. Metode modernog novinarstva imaju srodnosti i s metodama rada moderne medicine, koja isključuje apriorizam, u prvom redu nastojeći uočiti totalnost čovjeka.
+
+\chapter[Zoran Kravar, Stil i genus hrvatske lirike]{Zoran Kravar, Stil i genus hrvatske lirike 17. stoljeća (1993.)}
+
+{\small Izvor: \textit{Nakon godine MDC. Studije o književnom baroku i dodirnim temama}, Dubrovnik 1993, str. 70-103.}
+
+\medskip
+
+\noindent Dvama književno-teoretskim pojmovima sadržanima u naslovu studije namijenjeno je da u njoj odigraju funkcionalno srodne i podjednako važne, ali ne i među sobom posve skladne uloge. Dva se pojma ovdje shvaćaju kao oznake za dvije skupine obilježja hrvatske lirike 17. stoljeća, od kojih obje pružaju mogućnost razmišljanja i nagađanja o kontekstualnim i povijesnim vezama te lirike i o njezinu mjestu u europskom pjesništvu ranoga novovjekovlja. Poenta je pak u tome što se slika spomenutih kontekstualnih veza dobivena na osnovi uvida u stilska obilježja hrvatske lirike 17. stoljeća osjetno razlikuje od one koju podrazumijevaju generička svojstva istoga književnog korpusa. Drugim riječima, među stilskim i generičkim obilježjima seičenteskne lirike našega podneblja postoje razlike. Ponešto anticipirajući, odat ću da njihova različitost uključuje komponentu anakronije: stilska i generička obilježja korpusa o kojem je ovdje riječ nejednake su starosti, povezana su uz različite stupnjeve razvoja europskoga pjesništva ranoga novog vijeka. Taj uvid predodređuje tematiku i dramaturgiju čitave ove studije. Njezina će svrha biti zasebno datiranje stilskih i generičkih svojstava hrvatske seičenteskne lirike. Uz to će se nametnuti i pitanja o vjerojatnosti da se u jednoj jedinoj obitelji književnih tekstova, dapače, u svakom njezinu pojedinačnom uzorku, susretnu književni kvaliteti nejednake starosti, a slika hrvatske lirske pjesme 17. stoljeća kao sjecišta anakronih tendencija pokazat će se i pogodnim polazištem za razmišljanje o sličnostima i razlikama između te pjesme i onih kakve su u isto doba nastajale u drugim europskim književnostima. 
+
+Premda iz rečenoga proizlazi da pojmovi »stil« i »genus« u priči koja slijedi nastupaju kao dva podjednako važna junaka, simetrija njihovih funkcija i njihove važnosti neće sasvim jasno doći do izražaja u kompozicijskoj organizaciji moga teksta. Razlog je tome u činjenici što se dosadašnje proučavanje dvaju apekata hrvatske lirike 17. stoljeća odvijalo izrazito asimetrično, posve u korist njezinih stilskih svojstava. Stoga je u razmišljanju o stilu te lirike i o njegovoj književnopovijesnoj legitimaciji moguće pozvati se na postojeće rezultate, a to je, znamo, postupak koji znanstvenom diskurzu omogućuje značajne uštede prostora i energije. Doduše, ni za problem generičke pripadnosti i obilježenosti hrvatske lirske pjesme 17. stoljeća ne može se tvrditi da dosada za znanost nije postojao. On se, posebno u zadnjih petnaestak godina, postavljao u više navrata i s više različitih stajališta, bilo kao implikacija obuhvatnijih opisa hrvatske književnosti 17. stoljeća iz perspektive teorije rodova i vrsta, bilo pri proučavanju pojedinih hrvatskih pisaca iz istoga vremena. Pojedina istraživanja znala su pritom zaći i u subgenerički prostor i približiti se obilježjima hrvatske lirike 17. stoljeća znatno konkretnijima od same njezine liričnosti, karakterističnima, dakle, samo za izdvojene skupine njezinih uzoraka. Usudio bih se, ipak, ustvrditi da se o pitanjima koja će se naći u središtu »genoloških« poglavlja ove studije znanost dosada nije odviše brinula. Dodao bih još i da su ta pitanja postala moguća na osnovi uvida u neka generička svojstva sedamnaestostoljetne lirike o kojima u postojećoj stručnoj literaturi nisam našao izravnih zapažanja, premda se radi o svojstvima vrlo jednostavnima i uočljivima. Ali, možda ih je upravo njihova uočljivost i širina njihove pojave učinila nevidljivima, namećući ih kao nešto samorazumljivo, pa utoliko i nedistinktivno. 
+
+Riječ, dvije još o tekstualnom materijalu na koji se ovdje namjeravam ograničiti. Ispoređenje stila i genusa hrvatske lirike 17. stoljeća ovdje se, između ostaloga, poduzimlje i u svrhu kritičke provjere proširenoga, ali i neproblematiziranoga sta va da se naša lirika spomenutoga vremena »po bitnim obilježjima razlikuje od onoga što joj je prethodilo«. Sam polazim od pretpostavke da se hrvatska seičenteskna pjesma od »onoga što joj je prethodilo«, odvojila samo nekim svojim aspektima. Druga je ostala vezana i za prošlost koja je prethodila ne samo njoj nego i dvjema ili trima generacijama njezinih prethodnika. Držim stoga svrsishodnim ograničiti se na one proizvode naše seičenteskne lirike kod kojih se »starosna« razlika između stilskogeneričkih obilježja čini osobito naglašena i lakše dokaziva. Ta je razlika, po mom osjećaju, posebno vidljiva u sedamnaestostoljetnoj svjetovnoj lirici, što me navodi da se na takvu liriku i usredotočim. Među svjetovnim pak pjesmama u prvi bih plan stavio one koje barem jednim od dvaju svojih ovdje izdvojenih aspekata nedvojbeno pripadaju književnom vremenu nakon g. 1600. Tom zahtjevu, naime, ne udovoljuje sve što je u 17. stoljeću napisano na hrvatskom jeziku u formi lirske pjesme profanoga karaktera. Dok, na primjer, neka uočljiva svojstva dubrovačko-dalmatinske ljubavne pjesme nakon g.~1600.\ ne ostavljaju dvojbe o njezinu pozitivnu odnosu prema određenim, ponajviše stilskim dostignućima suvremenoga europskog pjesništva, ljubavna lirika iz Frankopanova \textit{Gartlica}, jedine naše sedamnaestostoljetne pjesničke zbirke svjetovnog karaktera nastale izvan dubrovačko-dalmatinskoga kulturnog svijeta, doimlje se osjetno staromodnije. Ni sama, dakle, svjetovna lirika našega seičenta, zbog neravnomjerne obilježenosti svojstvom moderniteta, odnosno živim vezama s književnim modama i tendencijama vlastitog vremena, ne nudi ovom istraživanju sve svoje sadržaje kao ravnopravne i jednako zanimljive. Stoga će ovdje u izboru materijala, uz već spomenuto ograničenje na svjetovnu pjesmu, biti i određene kulturnogeografske asimetrije, s tim da će malu prednost dobiti lirika dubrovačko-dalmatinskih seičentista. Ipak, povremeno će se, više u »genološkim« poglavljima negoli u narednom stilističkom, uzimati i primjeri iz Frankopanova \textit{Gartlica}. Trikovima iz repertoara svoga selektivnog modernizma dubrovačko-dalmatinski pjesnici 17. stoljeća ostavili su Frankopana dobar komad puta za sobom. U onome, međutim, u čemu su i sami bili nemoderni nisu se od svoga sjevernohrvatskoga suvremeniteta mnogo razlikovali. Stoga i Gartlic zasigurno dolazi u obzir kao jedna od polaznih postaja u potrazi za povijesnim ishodištima konzervativnih crta hrvatske sedamnaestostoljetne lirike.
+
+\chapter[Milivoj Solar, Ideja i priča]{Milivoj Solar, Ideja i priča. Aspekti teorije proze  (Zagreb 1974.)}
+
+Prije svega, povijesna perspektiva problematike odnosa proze i poezije nije sasvim jednostavna uputa o tome kako odnos poezije i stihova te odnos poezije i proze treba relativirati s obzirom na povijesne epohe u kojima se on jedino može utvrditi i izvan kojih on nema uvijek isti, ili čak nema nikakav, smisao. Nema sumnje, doduše, da Barthes sasvim točno upozorava (u napomeni) da je otpor prema mitu karakterističan samo za modernu poeziju ako tu poeziju shvatimo na onaj način na koji je Barthes eksplicira, i da iz toga proizlazi kako pojam poezije nije ``statičan'' promatramo li ga u tzv.\ dijakronijskoj perspektivi. To znači da proučavanje poezije i proze treba doista, u prvom redu, upraviti prema tipičnim oblicima u kojima se proza i poezija pojavljuju u pojedinim epohama, jer traženje općih razgraničenja može lako dovesti do brojnih nesporazuma, budući da se isti nazivi upotrebljavaju u raznim epohama za različite tvorevine. I ne samo to: razvijanje strukturalizma, upravo na osnovama razumijevanja cjelovita sustava odnosa, u kojima tek cjelina odnosa određuje značenje pojedinih dijeova ili elemenata, vodi prema dosta plodnim zaključcima. Jurij Lotman je u tom smislu uvjerljivo pokazao kako tako zvani vantekstovni odnosi uvelike uvjetuju shvaćanje onoga što će u pojedinoj epohi vrijediti kao umjetnička proza, te da, dakle, okvire povijesnog razmatranja pojedinih fenomena proze i poezije valja razumjeti uvijek ne samo u međusobnim odnosima, nego čak i u odnosima svih načina izražavanja, pa čak i svih kulturnih područja. Umjetnička proza se uvijek pojavljuje ``na pozadini'' nekog shvaćanja poezije, kao i ``na pozadini'' nekog shvaćanja npr.\ filozofije ili historiografije, a u konzekvencijama i ``na pozadini'' nekog shvaćanja umjetnosti u cjelovitu sustavu kulturnih vrijednosti svake epohe. No, sve to stoji kao radna hipoteza tek ako smo svjesni kako taj historijski kontekst u koji treba staviti cjelokupni kulturni sustav nije prirodno dan, kako on nije nikakva činjenica koju bismo posjedovali zbog raspolaganja nekim rezultatima povijesnih istraživanja.
+
+Stoga historijsko relativiranje pojma umjetničke proze ne može izbjeći potrebu nalaženja nekih temlejnih okvira u kojima se i ono samo jedino može i mora provesti. Ograničenje na sinkronijsku perspektivu suvremena stanja može se provesti tek uz cijenu prihvaćanja određenih doktrina, pri čemu je neophodno njihovo provjeravanje u širem povijesnom kontekstu (za koju svrhu, međutim, ne postoji neko u povijesnom smislu zaokruženo iskustvo suvremenosti) ili provjeravanje u cjelovitu misaonu sustavu (za što bi bio potreban zaokruženi filozofski sustav, što bi vodilo tezi o postizanju apsolutnog znanja). To, međutim, najbolje pokazuju teškoće u analizi proze.
+
+\section*{Analiza proze}
+
+Analiza umjetničke proze na prvi je pogled jednostavnija od analize poezije. Lirska pjesma od nekoliko stihova tako je cjelovita i u svakom detalju neizmjenjiva tvorevina da svaki pokušaj razdvajanja njezinih sastavnih elemenata biva u nekoj mjeri unaprijed osuđen na neuspjeh; ritam, zvuk i smisao u njoj su nerazdvojivo povezani i jedinstveno se prihvaćaju. Ona se ``otkriva'' u trenutku i rastavljanje na pojedine riječi, slogove, slike, taktove ili manje smislene cjeline uvijek je nalik razbijanju nečega što samo kao cjelina može biti dostupno razmatranju. U analizi lirike stoga je uvijek očita opasnost da čar pjesmom izazvana dojma ode u nepovrat, baš kao što se boja kao boja ne može svesti na svjetlosne valove određene frekvencije. Analitički postupak tu je uvijek prisiljen tražiti elemente cjeline na razini koja nije razina neposrednog dojma; tek jedan stav, uvelike drugačiji od prirodnog neposrednog prihvaćanja, omogućuje da se izgradi neki pojmovni sustav u okviru kojeg se elementi pjesme mogu izdvojiti kao konstitutivni dijelovi cjeline kao predmeta razmatranja. Analiza lirike uvijek se nužno provodi u drugoj dimenziji odone neposrednog razumijevanja lirske pjesme; ona zahtijeva ``pojmovni aparat'' koji pruža neka koncepcija versifikacije, neka estetička ili lingvistička doktrina ili neka posebno razvijena sposobnost da se vlastiti dojam opisuje kao objektivan predmet refleksije.
+
+\chapter[Svetozar Petrović, Problem soneta]{Svetozar Petrović, Problem soneta u starijoj hrvatskoj književnosti (oblik i smisao) (Zagreb 1968.)}
+
+Predmet su ovoj radnji, istovremeno, jedan književnohistorijski i jedan književnoteoretski problem. Naše dvije teme združilo je uvjerenje da se veoma specifičan položaj soneta u starijoj hrvatskoj književnosti može zadovoljavajuće objasniti tek unutar jednog izgrađenog književno-teoretskog shvaćanja o odnosu oblika i smisla u poeziji, a da se – u isto vrijeme – ispitivanje staroga hrvatskog soneta može iskoristiti kao vrlo sretno polazište ne samo za tačnije utvrđivanje položaja starije hrvat­ske poezije, u krugu evropskih književnosti toga vremena, nego i za pot­punije razumijevanje problema tzv.\ stalnih oblika u poeziji. Zato je prvi od naših problema (problem soneta u starijoj hrvatskoj književno­sti) postao ovoj radnji ishodište i ogledna osnova, a drugi (problem ob­lika i smisla) unutrašnje određenje i idealni cilj.
+
+
+Lako je razumjeti teškoće što ih je takva zamisao radnje morala savla­dati. Ispitujući stariju hrvatsku književnost sa stanovišta povijesti jed­nog oblika, dakle sa stanovišta s kojega se ona nije dosad posebno is­pitivala, ova je radnja morala svoj interes često uputiti prema područji­ma i pitanjima koja dosad nisu privukla sustavnije pažnje povjesničara književnosti. Više puta, uz to, kao što će se vidjeti, riječ je ovdje teksto­vima koji u književnoj povijesti nisu bili ni zabilježeni a kamoli objav­ljeni ili kritički procijenjeni; najčešće, riječ je o tekstovima koji nisu nikad bili u središtu pažljivijeg proučavanja i kojima su sudovi i karakterizacije, kad u književnoj povijesti postoje, koji put dovitljive improvizacije ali koji put i grube zabune.
+
+U ovoj je radnji, naravno, bilo nemoguće vladati se kao da to nije tako. Ne bi bio razuman pokušaj književnoteoretskog zaključivanja na temelju književnopovijesne građe koja je samo površno ili nije nikako proučena. Takav je postupak u naše vrijeme dvostruko nedopustiv jer su još uvijek razmjerno skromne mogućnosti — ili možda: jer naše vri­jeme ponovo jasno osjeća da su skromne mogućnosti — valjanog knji­ževnoteoretskog zaključivanja dedukcijom. Ako se suvremeni razvoj teo­rije književnosti i može smatrati posljedicom nastojanja da se ona pre­tvori u nauku, u sustavno i koherentno znanje o književnom fenomenu, vrijednost toga nastojanja nije u svakom slučaju jasna, a nije bez razloga ni vjerovanje da se teorija književnosti, i u svom tradicionalnom obliku i u reformiranom obliku što je nastao posljednjih desetljeća, u pri­lično osjetljivoj mjeri nalazi još uvijek u vlasti poluistina kojima se pridaje težina aksioma.
+
+Ovo se ispitivanje zato nije moglo baviti svojim pravim predmetom a da u više nego jednom slučaju ne obavi predradnje koje su svaki put same zahtijevale isto onoliko truda i vremena, i u eksplikaciji isto ono­liko prostora, koliko bi, u drugačijim prilikama, zahtijevala čitava ana­liza našega pravog predmeta. Kad se god činilo da bi za tok i ishod ove radnje moglo to biti i neznatno relevantno, valjalo je proučiti rukopise, procijeniti i djela koja nisu soneti, ispitati način na koji su sud i karakterizacija o ovom ili onom djelu u književnoj povijesti nastajali, pro­vjeriti ovaj ili onaj podatak iz privatne i osobito iz duhovne biografije jednog autora. U nekom slučaju karakterizacija jedne pojave, jedne poezije u cjelini, činila se za ovo razmatranje važnijom od pomnog ispi­tivanja pojedinačnih soneta koji su se u toj poeziji našli. U više slučajeva valjalo je staviti u pitanje i sredstva, instrumente našeg ispitivanja, jer problem često nije bio jednostavno u tome da se prokrči kakva razmjerno nova staza već u isti čas – po riječi koja se pripisuje starom kineskom estetičaru Lu Chiu – i u tome kako da se drži sjekira dok se za nju samu teše drška.
+
+\chapter[Stanko Lasić, Autobiografski zapisi]{Stanko Lasić, Autobiografski zapisi (Zagreb 2000.)}
+
+Uza sve to, sistematski sam proučavao povijest jugoslavenskih naroda, pročitao brdo knjiga, ostajući na distanci od onoga što sam saznavao. Povijest je bila i jedan od predmeta one mastodontske grupe koju sam diplomirao (XVI.\ grupa studija na zagrebačkom Filozofskom fakultetu, dolazila je ravno iz austrougarske tradicije). Osobito sam izučavao imperijalizme koji su prijetili hrvatskom narodu pa sam se detaljno bavio mađarskim, talijanskim i srbijanskim ekspanzionističkim državnim kompleksima kao i politikom Habsburgovaca. Tragičnost hrvatskog naroda ukazivala mi se kao tragičnost dvostruke mitologije koja je vladala našim svijestima: s jedne strane mit o hrvatskom narodu kao jedinom ili pravom nacionalnom entitetu na ovom području (Slovenci su planinski Hrvati, Muslimani najčistija hrvatska krv, Nemanjići slavna hrvatska dinastija); s druge strane mit o jednom narodu s tri glave, tj.\ s tri imena, s tri plemena. Studirao sam u isto vrijeme povijest Komunističke partije Jugoslavije i Kominterne, detaljno, jer me se to neposredno ticalo, bio sam njezin član iako se ispod etikete već davno krio jedan sasvim drugi čovjek, a ne onaj fanatik iz 1945/47. Nijedan iole važniji politički događaj (predratni i poslijeratni) nije izbjegao mojoj analizi i ocjeni, pa mogu reći da su rijetki bili književni povjesničari koji su se s takvom lakoćom kretali tim labirintom. To je bilo vrlo važno jer se radilo o tome da se prividna kompleksnost komunističke povijesti uspješno svede na nekoliko temeljnih problema, od kojih se glavni sastojao u borbi za vlast unutar monolitne monološke organizacije. Raznolikost samoupravnih institucija, od vrha do dna (s famoznom ``rotacijom'' i doživotnim predsjednikom), nisam odbacio kao puku karikaturu demokracije, nego mi se ona otkrivala kao prožeta važnom kontradikcijom koja može biti plodna: zatvorena samovolja \textit{vs} mogućnost demokratskog i nacionalnog otvaranja.
+
+Dodat ću svemu tomu i svoje pravo proždiranje časopisa i novina (dnevnih i tjednih) koji su se na mom stolu gomilali ne bih li preko njihova siromašnog bogatstva dobio što precizniju sliku stvarnosti.
+
+Čemu ova izložba moje erudicije koja može izgledati kao bljutavo hvalisanje? Samo zbog toga da se barem djelomično približimo stanju moga duha iz 1973.\ kada mi je povjeren kolegij ``Civilisation yougoslave''. Znao sam da o tome mogu govoriti i stručno i živo, i s racionalnom analitičnošću i sa sugestivnom neposrednošću, što drugim riječima znači da sam vjerovao da se mogu približiti onoj duhovnoj punoći koju sam smatrao predavačkim idealom. Nisam ni časa sumnjao da mogu biti ne samo koristan mladim ljudima koji su se posvetili ovom studiju, nego da im mogu pomoći u načinu kako se ulazi u jednu tako kompleksnu ``civilizaciju'' da bi se shvatila sustavno, svestrano i iznutra, bez predrasuda. Izradio sam prilično opsežnu bibliografiju s oko stotinu jedinica (sve na francuskom) koju sam šapirografirao s namjerom da je podijelim slušačima. Sistematizirao sam neke probleme u nekoliko grafikona: uspon i pad Stranke prava od 1860.\ do 1895.; sukob i izmjenjivanje dviju srbijanskih dinastija od 1804.\ do 1903.; pregled svih najvažnijih kulturnih događaja od 1945.\ do 1970.; sinkronijska slika jedne ``jugoslavenske'' kulturne godine; piramide komunističkog vrha od 1941.\ do 1973.; itd. Napravio sam detaljne planove rada za svaku od (otprilike) 30 lekcija po dva sata što sam ih u ovoj školskoj godini trebao održati. Brojne sam analize popratio i glavnim terminima na francuskom jer sam sve morao izlagati na tom jeziku.
+
+Nadao sam se da ću na taj način nadvladati onu predavačku kontradikciju koja me je pratila od početka mog nastavnog rada: napišem li tekst i čitam ga, izlaganje je jasno, ali mene muči dojam da je prazno, drveno i da ne prelazi katedarsku ``rampu''; govorim li ono što sam zamislio i samo skicirao, tada nemam snage da se držim te zamisli i padam u tjeskobu da brbljam svašta, doduše zanimljivo, ali svašta, da manjka ono bitno jer su sve linije iskrivljene ako ne i polomljene. Do konca svoje nastavničke karijere nisam se riješio ove kontradikcije i moja se nelagoda s vremenom povećavala umjesto da se smanjuje. Nisu me smirivala nikakva priznanja da sam dobar, čak odličan predavač, ja sam se u sebi osjećao razdvojen i nesposoban da dovedem u sklad tvrdoću pisma i lepršavost govora. Ovog puta, u jesen 1973., nadao sam se da ću u tome uspjeti jer će me i sam francuski sprječavati da ``odlutam'' i gubim se u svojim ``meditacijama''.
+
+Ukratko, htio sam biti najbolji, obilježiti ``anale'' slavističke Sorbonne svojom vrijednošću. S pravom sam to želio jer sam doista bio svestran znalac ovog predmeta. Tada u tome nije bilo boljeg od mene, ni u zemlji, ni u svijetu. Osim toga nadao sam se da će mi ovaj kolegij pomoći i u mojoj daljnjoj karijeri u Francuskoj. Taština i korist skladno su se prožimale. U takvom sam raspoloženju dočekao početak školske godine: bio sam tipičan primjer nestrpljivog nadmetanja, što je bilo i više nego normalno.
+
+\tableofcontents
+
+\end{document}
