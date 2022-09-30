@@ -1,4 +1,5 @@
 *.md~
+*.tex~
 *.aux
 *.log
 *.out
