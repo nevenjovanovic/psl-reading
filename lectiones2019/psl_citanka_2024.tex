@@ -1,0 +1,238 @@
+\documentclass[a4paper,12pt,twoside]{book}
+\usepackage{polyglossia}
+\setmainlanguage{latin}
+\setotherlanguage{greek}
+\setotherlanguage{croatian}
+
+\usepackage{fontspec}
+\usepackage{verse}
+\defaultfontfeatures{Ligatures=TeX}
+
+\usepackage{import}
+\usepackage[small,sf,bf]{titlesec}
+\usepackage{tabto}
+\usepackage{ulem}
+\usepackage{hyperref}
+\usepackage{enumitem}
+%\usepackage{dtk-logos}
+\usepackage{marginnote}
+
+\usepackage{fancyhdr}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE]{\itshape\nouppercase{Prevođenje s latinskog – čitanka (2024/2025)}}
+\fancyhead[LO]{\itshape\nouppercase{\leftmark}}
+\renewcommand{\headrulewidth}{0pt}
+
+\usepackage{titling}
+\newcommand{\subtitle}[1]{%
+  \posttitle{%
+    \par\end{center}
+    \begin{center}\large#1\end{center}
+    \vskip0.5em}%
+}
+ 
+\setmainfont{Old Standard TT}
+\setsansfont{Old Standard TT}
+%\setsansfont{Tahoma}
+
+\hyphenation{δυσ-σέ-βει-αν βού-λεσ-θαί κα-τη-γο-ρού-σης τα-χέ-ως πε-πλημ-μέ-λη-κε νε-α-νί-ας αὐ-τῇ ἀ-φε-λό-με-νος ἀ-πή-γε-το ἐ-πέ-πληξ-άς ἠ-γό-μην ἤ-νεγ-κεν νο-μί-ζει ἄν-θρω-πον παν-το-δα-πά Αἰ-θί-οψ-ιν ἀν-έρ-χε-ται φρον-τί-δων αὐ-τὸς δι-ῃ-ρη-μέ-νος κλέπ-τον-τας ἑ-κα-τόμ-βῃ μέ-γισ-τον κιν-δύ-νου}
+
+\hyphenation{Ελ-λή-νων ξυν-έ-μει-νεν ἐ-πι-όντ-ων ἀνα-σκευ-α-σά-με-νοι ἀ-πω-σά-με-νοι Λα-κε-δαι-μό-νι-οι Ελ-λη-νες δι-ε-φά-νη}
+
+\hyphenation{εὐ-δο-κι-μή-σας ἐν-ταῦ-θα βα-σι-λεύ-εις ἐ-χρή-σα-το συλ-ληφ-θέν-τος}
+
+\hyphenation{θε-ρά-πον-τες ἡ-γοῦ-μαι}
+
+\hyphenation{ἐπι-φα-νέσ-τε-ρον το-σοῦ-τον ἔ-χον-τας συγ-γιγ-νο-μέ-νους μᾶλ-λον με-γίσ-την}
+
+\hyphenation{ἐπ-έσ-κηπ-τε}
+
+\hyphenation{κοι-νω-νοῦ-σιν δη-λῶ-σαι δι-α-λε-γο-μέ-νους πλη-σι-ά-ζον-τας πα-ρα-λι-πεῖν}
+
+\hyphenation{καρ-πῶν ὀ-νο-μα-ζό-με-νον τηκ-τὰ ὅ-σα}
+
+\hyphenation{με-μά-θη-κας Μά-λισ-τα πο-λυ-μα-θής}
+
+\hyphenation{δι-α-βε-βλη-μέ-νος Α-ρι-στό-βου-λος Σω-κρά-τους Δı-α-τ
+ρι-βαί ἐξ-ελ-κύ-σαι Ἐγ-χει-ρί-δι-ον}
+
+\hyphenation{δά-μα-λιν δύ-να-μαι}
+
+\hyphenation{πυ-θο-μέ-νου ἀ-πο-κρί-νε-ται τρα-πέ-ζαις ἀ-πέσ-τει-λαν γρά-ψαν-τος με-τα-τί-θη-σι με-γά-λου Τισ-σα-φέρ-νῃ προσ-ε-πι-μετ-ρῆ-σαι Α-θη-ναί-οις Τισ-σα-φέρ-νην Αλ-κι-βι-ά-δην πα-τρί-δα}
+
+\hyphenation{ἡ-γοῦν-ται ἀ-πο-ρω-τά-των πό-λεις Ras-pra-va Ἀ-πο-λο-γί-α Λα-κε-δαı-μο-νί-ων Κυ-νη-γε-τι-κός}
+
+\hyphenation{πλε-όν-των γε-ωρ-γὸς ἕ-τε-ρον}
+
+\hyphenation{κα-θεῖ-ναι προ-ελ-θοῦ-σαν ἀ-πο-δοῦ-ναι ἀ-πο-φαί-νον-τος ἀ-πεσ-τά-λη ἅ-παν-τας τρί-πο-δα τρί-πο-δος κα-θι-ερώ-θη}
+
+\hyphenation{χρεί-αν παν-τὸς ἀν-επί-σκεπ-τον ἀ-πο-θα-νόν-των πα-ρα-σκευ-ά-ζον-τας φρον-τί-ζον-τας πολ-λοὺς κτω-μέ-νους ἐ-λατ-τοῦσ-θαι ἀ-με-λοῦν-τας ἀ-θε-ρά-πευ-τον κτη-μά-των πει-ρω-μέ-νους ὀ-λι-γω-ροῦν-τας δε-ο-μέ-νων ἐ-ῶν-τας ἔ-μοι-γε}
+
+\hyphenation{αὐ-το-κρά-το-ρας Λά-μα-χον ποι-ή-σαν-τες ἑξή-κον-τα Σε-λι-νουν-τί-ους χρη-μά-των μισ-θόν Νι-κη-ρά-του πε-ρι-γίγ-νη-ται}
+
+
+
+\begin{document}
+
+\title{Prevođenje s latinskog}
+\subtitle{Čitanka}
+\author{Odsjek za klasičnu filologiju\\
+Filozofski fakultet Sveučilišta u Zagrebu}
+\date{Akademska godina 2024/2025}
+\maketitle
+
+\clearpage
+\thispagestyle{empty}
+
+
+%\frontmatter 
+
+\tableofcontents
+
+
+
+\chapter*{Predgovor}
+
+\section*{O ovoj čitanci}
+\begin{croatian}
+  
+
+Izbor koji je pred vama donosi odabir iz djela četvorice važnih autora rimske književnosti: Seneke, Terencija, Tibula, Horacija. Odabir čini propisanu lektiru kolegija \textit{Prevođenje s latinskog}, obaveznog na trećoj godini preddiplomskog studija latinskoga jezika i književnosti na Filozofskom fakultetu Sveučilišta u Zagrebu.
+
+Zadatak je studenata da, uz pomoć uobičajene referentne literature, kod kuće prirede svaku cjelinu, tako da na nastavi i na završnom ispitu budu spremni latinski tekst pročitati, prevesti i interpretirati.
+
+%Valja upozoriti da ova čitanka nipošto ne sadrži \textit{cjelokupnu} propisanu lektiru, koja je zapravo bitno opsežnija. Petnaest jedinica ovog izbora namijenjeno je zajedničkom prevođenju, komentiranju i vježbanju na seminaru. Ostatak propisanih štiva svaki student mora, da bi uspješno položio ispit, prirediti sam; samostalno čitanje i samostalan rad na tekstu osnova su latinske jezične kompetencije.
+
+Osim samih izvornih tekstova, čitanka ponegdje donosi i kratke uvode, primjere raščlanjivanja, i (gdje je bilo moguće ili umjesno) latinske parafraze, preuzete iz devetnaestostoljetnih izdanja, prvenstveno iz niza koji je \textit{in usum Delphini} (tzv.\ \textit{Delphin Classics)} 1819.–1830.\ objavljivao londonski izdavač Abraham John Valpy. Digitalni faksimili svih tih knjiga danas su dostupni putem interneta, ponajviše u zbirci \textit{Internet Archive}. Bibliografske podatke naći ćete u nastavku. 
+
+Školska izdanja s latinskim komentarima i parafrazama smatramo iznimno korisnim za stjecanje najvažnije vještine na studiju latinskog – za tečno čitanje i razumijevanje latinskog teksta. Kako se radi o pomoćnim tekstovima, njihovo razumijevanje nećemo provjeravati na završnom ispitu.
+
+Ovaj je izbor priredio Neven Jovanović, nastavnik Odsjeka za klasičnu filologiju Filozofskog fakulteta Sveučilišta u Zagrebu.
+
+Izvorni kod prijeloma ovog izbora, priređen pomoću programa LaTeX i XeLaTeX, dostupan je u repozitoriju \url{https://github.com/nevenjovanovic/psl-reading/tree/x220} na servisu Github.
+
+%\newpage
+
+
+\medskip
+
+U Zagrebu, listopada 2024.
+
+\end{croatian}
+
+\section*{Bibliografija}
+
+{
+\setlength{\parindent}{0pt}
+
+Albii Tibulli opera omnia ex editione I.\ G.\ Huschkii, in usum Delphini. Vol.\ 1. Londini: Valpy, 1822. \href{https://archive.org/details/delphinclassics173valp}{Internet}.
+
+L.\ Annaei Senecae pars prima, sive opera philosophica, rec.\ M.\ N.\ Bouillet, vol.\ 3. Parisiis: Lemaire, 1828. \href{https://archive.org/details/lannsenecparspr03bouigoog}{Internet}.
+
+Pub. Terentii Afri comoediae sex, ex editione Westerhoviana, in usum Delphini. Vol.\ 2. Londini: Valpy, 1824. \href{https://archive.org/details/pubterentiiafric02tereuoft}{Internet}.
+
+Quinti Horatii Flacci opera omnia, ex editione J.\ C.\ Zeunii, in usum Delphini. Vol.\ 1.  Londini: Valpy, 1825. \href{https://archive.org/details/delphinclassics57valp}{Internet}.
+
+}
+
+
+{
+\setlength{\parindent}{0pt}
+
+% \mainmatter
+
+\part{L.\ Annaei Senecae ad Lucilium epistulae morales}
+
+\chapter{Epistula I.}
+
+\import{capita/}{c01-sen-ep01.tex}
+
+\chapter{Epistula II.}
+
+\import{capita/}{c02-sen-ep02.tex}
+
+\chapter{Epistula III.}
+
+\import{capita/}{c03-sen-ep03.tex}
+
+\chapter{Epistula IV.}
+
+\import{capita/}{c04-sen-ep04.tex}
+
+%\chapter{Epistula V.}
+
+%\import{capita/}{c05-sen-ep05.tex}
+
+
+
+
+\part{Terentii Adelphoe}
+
+\chapter{Adelphoe, didascalia et prologus.}
+
+
+\import{capita/}{c09-ter-adelph00.tex}
+
+\chapter{Adelphoe, actus I, scaena I.}
+
+
+\import{capita/}{c10-ter-adelph01.tex}
+
+\chapter{Adelphoe, actus I, scaena II.}
+
+
+\import{capita/}{c11-ter-adelph02.tex}
+
+\chapter{Adelphoe, actus II, scaena I.}
+
+
+\import{capita/}{c12-ter-adelph03.tex}
+
+
+\part{Albii Tibulli elegiarum liber primus}
+
+\chapter{Elegia I.}
+
+
+\import{capita/}{c06-tib-el01.tex}
+
+\chapter{Elegia II.}
+
+
+\import{capita/}{c07-tib-el02.tex}
+
+%\chapter{Elegia III.}
+
+
+%\import{capita/}{c08-tib-el03.tex}
+
+
+
+
+\part{Horatii odarum liber primus}
+
+\chapter{Ode I.}
+
+
+\import{capita/}{c13-hor-od1-1.tex}
+
+\chapter{Ode II.}
+
+
+\import{capita/}{c14-hor-od1-2.tex}
+
+\chapter{Ode III.}
+
+
+\import{capita/}{c15-hor-od1-3.tex}
+
+%\clearpage
+%\thispagestyle{empty}
+% kraj
+
+
+\end{document}
